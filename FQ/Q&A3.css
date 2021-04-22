@@ -1,0 +1,154 @@
+*{
+    margin: 0; padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    list-style: none;
+    text-decoration: none;
+
+}
+a{
+    color: black;
+    
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    border-bottom:1px solid;
+    width: 1270px;
+    height: 80px;
+    border: 1px solid #C7C7C7;
+}
+.navbar__menu li:hover{
+    background-color:  #00793F;
+    border-radius: 4px;
+}
+
+.navbar__menu {
+    display: flex;
+    padding-left: 0;
+    width: 1000px;
+    height: 80px;
+}
+
+.navbar__menu > li {
+    margin-left:180px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 70px;
+}
+.line{
+    position: absolute;
+    width: 580px;
+    height: 30px;
+    top: 70px;
+    margin-left: 320px;
+    border-bottom: 1px solid #757575;
+}
+.title{
+    position: absolute;
+    width: 580px;
+    height: 20px;
+    top: 150px;
+    margin-left: 320px;
+    border-bottom: 1px solid #757575;
+    color: #7C7C7C;
+}
+.q{
+    position: absolute;
+    margin-left: 745px;
+    height: 20px; 
+    top: 145px;
+    color: #7C7C7C;
+}
+.main{
+    position: absolute;
+    top: 200px;
+    margin-left: 320px;
+}
+.line__1{
+    position: absolute;
+    width: 580px;
+    height: 45px;
+    top: 380px;
+    margin-left: 320px;
+    border-bottom: 1px solid #757575;
+}
+
+.line__2{
+    position: absolute;
+    width: 580px;
+    height: 45px;
+    top: 538px;
+    margin-left: 320px;
+    border-bottom: 1px solid #757575;
+}
+.box__1{
+    position:absolute;
+    display: flex;
+    border-bottom: 1px solid;
+    width: 500px;
+    height: 80px;
+    top: 440px;
+    margin-left: 320px;
+    border: 1px solid #C7C7C7;
+}
+.box__2{
+    position:absolute;
+    display: flex;
+    width: 65px;
+    height: 82px;
+    top: 440px;
+    margin-left: 830px;
+    background-color: #00793F;
+}
+.line__2{
+    position: absolute;
+    width: 580px;
+    height: 45px;
+    top: 490px;
+    margin-left: 320px;
+    border-bottom: 1px solid #757575;
+}
+.a{
+    position: absolute;
+    top: 445px;
+    margin-left: 330px;
+    font-size: 14px;
+    color: #7C7C7C;
+}
+.a1{
+    position: absolute;
+    top: 470px;
+    margin-left: 847px;
+    font-size: 14px;
+    color: white;
+}
+.a__1{
+    position: absolute;
+    top: 550px;
+    margin-left: 320px;
+}
+.a__2{
+    position: absolute;
+    top: 580px;
+    margin-left: 320px;
+}
+.line__3{
+    position: absolute;
+    width: 580px;
+    height: 45px;
+    top: 580px;
+    margin-left: 320px;
+    border-bottom: 1px solid #757575;
+}
+
+.Qlogo__1 > img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 1150px;
+    top: 670px;
+
+}

@@ -1,0 +1,51 @@
+/* FAQ(아코디언 형식) css */
+.accordion {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    padding-right: 360px;
+    padding-left: 360px;
+ }
+ input[id *= "answer"]{
+     display: none;
+ }
+ input[id *= "answer"]+label{
+     text-align: left;
+     display: block;
+     padding: 25px;
+     border-radius: 15px;
+     font-weight: bold;
+     color: black;
+     font-family: sans-serif;
+     font-size: 20px;
+     background: #F3F3F3;
+     box-shadow: 0px 4px 11px rgba(0, 0, 0,0.25); 
+     cursor: pointer;
+     
+ }
+ input[id *= "answer"] + label +div {
+     text-align: left;
+     font-size: 18px;
+     margin-top: 25px;
+     margin-bottom: 30px;
+     max-height: 0;
+     overflow: hidden;
+     background: white;
+     box-shadow: 0px 4px 4px rgb(185, 184, 184);
+     font-family: sans-serif;
+     
+ 
+ }
+ input[id *= "answer"] + label + div p{
+     display: block;
+     padding-right: 20px;
+     padding-left: 20px;
+ }
+ input[id *= "answer"]:checked + label + div {
+     max-height: 1000px;
+     padding:30px;
+ }
+ input[id *= "answer"]:checked + label {
+     transition: all .1s;
+     background: white;
+     max-height: 100px;
+ }

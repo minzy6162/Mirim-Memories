@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
+    <link href="common.css" rel="stylesheet" type="text/css" />
+    <link href="request.css" rel="stylesheet" type="text/css" />
+    <script src="request.js"></script>
+
+    <title>MM - 취업의뢰</title>
+
+</head>
+<body>
+    <a href="index.html" ><img src="img/logo.png" width="100px" id="logo"></a>
+    <form>
+        <input type="text" name="ceo_num" placeholder="사업자 번호">
+        <button type="button" class="btn" id="chid">조회</button>
+
+        <input type="text" name="major" placeholder="업종">
+        <input type="text" name="employee_num" placeholder="사원수(명) 현재 근무중인 사원수(4대보험 가입자 기준).">
+        <input type="text" name="adress" placeholder="주소(도로명 주소)">
+        <input type="text" name="sale" placeholder="매출규모(억)">
+
+
+        <div class="filebox">
+            <input class="upload-name" value="기업소개" disabled="disabled">
+
+            <label for="ex_filename">파일첨부</label> 
+            <input type="file" id="ex_filename" class="upload-hidden"> 
+        </div>
+
+        <input type="text" name="role" placeholder="담당업무">
+
+        <div id=ch_box>
+            <p>개발 직군일 경우 (기타는 담당업무에 기재해 주세요)</p>
+            <br>
+            <input type="checkbox" id="c1" name="c" />
+            <label for="c1"><span></span><a id="lang_txt">C</a></label>
+            <input type="checkbox" id="c2" name="cpp" />
+            <label for="c2"><span></span><a id="lang_txt">C++</a></label>
+            <input type="checkbox" id="c3" name="cs" />
+            <label for="c3"><span></span><a id="lang_txt">C#</a></label>
+
+            <input type="checkbox" id="c4" name="java" />
+            <label for="c4"><span></span><a id="lang_txt">java</a></label>
+            <input type="checkbox" id="c5" name="java script" />
+            <label for="c5"><span></span><a id="lang_txt">java script</a></label>
+            <input type="checkbox" id="c6" name="jsp" />
+            <label for="c6"><span></span><a id="lang_txt">jsp</a></label>
+
+            <input type="checkbox" id="c7" name="php" />
+            <label for="c7"><span></span><a id="lang_txt">php</a></label>
+            <input type="checkbox" id="c8" name="spring" />
+            <label for="c8"><span></span><a id="lang_txt">spring</a></label>
+            <input type="checkbox" id="c9" name="node" />
+            <label for="c9"><span></span><a id="lang_txt">node.js</a></label>
+
+            <input type="checkbox" id="c10" name="android" />
+            <label for="c10"><span></span><a id="lang_txt">android</a></label>
+            <input type="checkbox" id="c11" name="html" />
+            <label for="c11"><span></span><a id="lang_txt">html</a></label>
+            <input type="checkbox" id="c12" name="python" />
+            <label for="c12"><span></span><a id="lang_txt">python</a></label>
+
+            <input type="checkbox" id="c13" name="Django" />
+            <label for="c13"><span></span><a id="lang_txt">Django</a></label>
+            <input type="checkbox" id="c14" name="react" />
+            <label for="c14"><span></span><a id="lang_txt">react</a></label>
+            <input type="checkbox" id="c15" name="Vue.js" />
+            <label for="c15"><span></span><a id="lang_txt">Vue.js</a></label>
+
+            <input type="checkbox" id="c16" name="Mysql" />
+            <label for="c16"><span></span><a id="lang_txt">Mysql</a></label>
+            <input type="checkbox" id="c17" name="MongoDB" />
+            <label for="c17"><span></span><a id="lang_txt">MongoDB</a></label>
+            <input type="checkbox" id="c18" name="Oracle" />
+            <label for="c18"><span></span><a id="lang_txt">Oracle</a></label>
+        </div>
+
+        <input type="text" name="qual" placeholder="지원요건">
+        <input type="text" name="personnel" placeholder="채용인원 (예: **분야 **명)">
+        <input type="text" name="documents" placeholder="제출서류(이력서, 자소서, 포트폴리오 등)">
+        <input type="text" name="deadline" placeholder="서류 제출 마감일(20XX-XX-XX)">
+        <input type="text" name="startdate" placeholder="현장실습 시작 희망일(8월 31일 이후부터 가능, 미작성시 협의하여 조정) (20XX-XX-XX) ">   
+        
+
+        <div id="practice">
+            <p>
+                현장실습 및 고용형태
+                <br><br>
+                [참고] 모든 재학생은 근로계약 체결 전에 채용전제형 현장실습을 1개월 ~ 3개월간 실시해야 합니다. 현장실습 기간에는 국민연금, 건강보험, 고용보험 가입이 불가하고 산재보험은 필수로 가입해야 합니다. 비정규직 채용시 "기타"란에 작성 바랍니다.
+            </p>
+            <br>
+            <label><input type="checkbox" name="prac_ch_1"/>채용전제형 현장실습 약 1개월 실시(8월 31일 이후 시작)</label><br>
+            <label><input type="checkbox" name="prac_ch_2"/>채용전제형 현장실습 약 2개월 실시(8월 31일 이후 시작)</label><br>
+            <label><input type="checkbox" name="prac_ch_3"/>채용전제형 현장실습 약 3개월 실시(단, 2022년 1월 3일(월) 이후 근로계약 전환 필수)</label><br>
+            <label><input type="checkbox" name="prac_ch_4"/>현장실습 없이 2022년 1월 3일(월) 이후 채용 희망</label><br>
+            <label><input type="checkbox" name="prac_ch_5"/>미정, 협의 후 조정 희망 </label><br>
+            <label><input type="checkbox" name="prac_ch_6"/>기타</label><br>
+
+        </div>
+
+        <input type="text" name="money" placeholder="급여">
+        <input type="text" name="prac_money" placeholder="현장실습수당(근로계약 체결 전 실습수당)">
+
+        <div id="practice_welfare">
+            <p>
+                현장실습 및 고용형태
+                <br><br>
+                [참고] 모든 재학생은 근로계약 체결 전에 채용전제형 현장실습을 1개월 ~ 3개월간 실시해야 합니다. 현장실습 기간에는 국민연금, 건강보험, 고용보험 가입이 불가하고 산재보험은 필수로 가입해야 합니다. 비정규직 채용시 "기타"란에 작성 바랍니다.
+            </p>
+            <br>
+            <br>
+            <label><input type="checkbox" name="welfare1"/>상여금 별도 지급</label><br>
+            <label><input type="checkbox" name="welfare2"/>식비 별도 지급</label><br>
+            <label><input type="checkbox" name="welfare3"/>퇴직금 별도 지급</label><br>
+            <label><input type="checkbox" name="welfare4"/>기타</label><br>
+
+            
+        </div>
+        <br>
+
+        <input type="text" name="mname" placeholder="채용 담당자 성명">
+        <input type="text" name="mposition" placeholder="채용 담당자 직위">
+        <input type="text" name="mph_num" placeholder="채용 담당자 전화번호">
+        <input type="text" name="memail" placeholder="채용 담당자 이메일">
+        <input type="text" name="add" placeholder="추가 사항">
+
+        <br>
+        <button type="submit" class="request_btn">의뢰하기</button>
+
+
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,153 @@
+
+.C1{
+    /*Line 14 미림소프트 위에 있는 선*/
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 490px;
+    top: 125px;
+    border: 1px solid #757575;
+}
+
+.C2_l{
+    /*Line 15 날짜랑 김당당 밑에 있는 선*/
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 490px;
+    top: 200px;
+    border: 1px solid #757575;
+}
+
+.date {
+    /*날짜*/
+    position: absolute;
+    width: 132px;
+    height: 34px;
+    left: 490px;
+    top: 172px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    color: #737373;
+}
+
+.mirim_s {
+    /*미림소프트 글자*/
+    position: absolute;
+    width: 860px;
+    height: 70px;
+    left: 410px;
+    top: 120px;
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 70px;
+    align-items: center;
+    text-align: center;
+}
+
+.pc {
+    /*김당당 글자*/
+    position: absolute;
+    width: 132px;
+    height: 34px;
+    left: 1084px;
+    top: 174px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    color: #737373; 
+}
+
+.C3_l {
+    /*Line 16 첨부파일과 졸리다.txt 위에 있는 선*/
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 490px;
+    top: 570px;
+    border: 1px solid #757575;  
+}
+
+.C3 > p {
+    /*사용언어 : 어쩌구, 위치 : 어쩌구 쓰는 곳*/
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    left: 490px;
+    top: 250px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+    /* align-items: left; */
+    text-align: left;
+    /* border:1px solid red; */
+}
+
+.C4_l {
+    /*Line 17 첨부파일, 졸리다.txt 밑에 있는 선*/
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 490px;
+    top: 670px;
+    border: 1px solid #757575;    
+}
+
+.file {
+    /*첨부 파일*/
+    position: absolute;
+    width: 132px;
+    height: 69px;
+    left: 490px;
+    top: 590px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #737373;    
+}
+
+.txt {
+    /*졸리다.txt*/
+    position: absolute;
+    width: 132px;
+    height: 69px;
+    left: 754px;
+    top: 590px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #737373;   
+}
+
+.Ellipse{
+    /*Ellipse 화면 오른쪽 맨 밑에 있는 
+    동그라미*/
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 40px;
+    top: 608px;
+    border-radius: 50%;
+    background: #00793F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.U{
+    /*동그라미 안에 사람모양 캡처한 이미지 위치*/
+    position: absolute;
+    left: 25px;
+    top: 28px;
+}

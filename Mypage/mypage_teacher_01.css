@@ -1,0 +1,228 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:#000;
+}
+
+.header {
+    position:absolute;
+    display:flex;
+    width:100%;
+    height:99px;
+    border-bottom:1px solid #C7C7C7;
+}
+
+.header_logo > img {
+    position:absolute;
+    width: 80px;
+    height: 47px;
+    left: 48px;
+    top: 26px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header_menu {
+    position:absolute;
+    display: flex;
+    top:33px;
+}
+
+.header_menu li:hover {
+    background: #00793F;
+    border-radius: 4px;
+}
+
+.header_menu > li {
+    margin-left:330px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size:20px;
+    line-height: 28px;
+}
+
+/* header end */
+.student_login > span {
+    position: absolute;
+    width: 310px;
+    height: 28px;
+    left: 62px;
+    top: 131px;
+}
+
+.student_login_box {
+    position: absolute;
+    width: 500px;
+    height: 360px;
+    left: 48px;
+    top: 170px;
+    background: #FCFCFC;
+    box-shadow: 1px 3px 20px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+.student_li > li {
+    display:inline-block;
+    width: 210px;
+    height: 70px;
+    margin-top:20px;
+    margin-left:20px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.student_li > li > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.soft {
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    left: 630px;
+    top: 170px;
+    background: #00793F;
+    box-shadow: 1px 3px 20px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.soft > span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    padding-top:140px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.web {
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    left: 984px;
+    top: 170px;
+    background: #FCFCFC;
+    box-shadow: 1px 3px 20px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.web > span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    padding-top:140px;
+    text-align: center;
+    color: #000;
+}
+
+.design {
+    position: absolute;
+    width: 300px;
+    height: 360px;
+    left: 1342px;
+    top: 170px;
+    background: #000;
+    box-shadow: 1px 3px 20px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.design > span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    padding-top:140px;
+    text-align: center;
+    color: #fff;
+}
+/* container1 end */
+
+.job_list > span {
+    position: absolute;
+    width: 145px;
+    height: 28px;
+    left: 62px;
+    top: 540px;
+}
+
+.job_list_box {
+    position: absolute;
+    width: 500px;
+    height: 360px;
+    left: 48px;
+    top: 580px; 
+    background: #FCFCFC;
+    box-shadow: 1px 3px 20px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+.job_list_li > li{
+    display:flex;
+    width: 450px;
+    height: 70px;
+    margin-top:30px;
+    margin-left:20px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;    
+}
+
+.job_list_li > li > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 80px;
+    margin-left:10px;
+    display: flex;
+    align-items: center;
+}
+/* container2 end */
+
+.info {
+    position: absolute;
+    width: 1020px;
+    height: 360px;
+    left: 630px;
+    top: 580px;
+    
+    background: #FCFCFC;
+    box-shadow: 1px 3px 20px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;    
+}
+
+.info > p {
+    position: absolute;
+    width: 663px;
+    height: 360px;
+    left: 10px;
+    top: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #4E4E4E;
+    word-spacing: 10em;
+}

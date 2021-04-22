@@ -1,0 +1,122 @@
+*{
+    margin: 0; padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    list-style: none;
+    text-decoration: none;
+   
+}
+a{
+    color: black;
+    
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    border-bottom:1px solid;
+    width: 1270px;
+    height: 80px;
+    border: 1px solid #C7C7C7;
+
+}
+.navbar__menu li:hover{
+    background-color: #00793F;
+    border-radius: 4px;
+
+}
+.navbar__menu {
+    display: flex;
+    padding-left: 0;
+    width: 1000px;
+    height: 80px;
+   
+}
+
+.navbar__menu > li {
+    margin-left:180px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 70px;
+}
+
+.title{
+    position: absolute;
+    width: 580px;
+    height: 45px;
+    top: 130px;
+    margin-left: 320px;
+    border-bottom: 1px solid #757575;
+}
+.q{
+    position: absolute;
+    margin-left: 840px;
+    height: 20px; 
+    top: 130px;
+}
+.main{
+    position: absolute;
+    top: 200px;
+    margin-left: 320px;
+}
+.line__1{
+    position: absolute;
+    width: 580px;
+    height: 45px;
+    top: 480px;
+    margin-left: 320px;
+    border-bottom: 1px solid #757575;
+}
+.foot{
+    position: absolute;
+    top: 533px;
+    margin-left: 340px;
+}
+.foot_1{
+    position: absolute;
+    top: 533px;
+    margin-left: 500px;
+    color: #7C7C7C;
+    font-size: 12px;
+}
+.foot_2{
+    position: absolute;
+    top: 533px;
+    margin-left: 600px;
+    color: #7C7C7C;
+    font-size: 12px;
+}
+.foot_3{
+    position: absolute;
+    top: 533px;
+    margin-left: 700px;
+    color: #7C7C7C;
+    font-size: 12px;
+}
+
+.line__2{
+    position: absolute;
+    width: 580px;
+    height: 45px;
+    top: 520px;
+    margin-left: 320px;
+    border-bottom: 1px solid #757575;
+}
+
+.Qlogo > img {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 1070px;
+    top: 670px;
+
+}
+.Qlogo__1 > img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 1150px;
+    top: 670px;
+
+}

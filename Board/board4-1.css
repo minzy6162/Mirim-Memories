@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration:none;
+    color: #404040;
+    list-style:none;
+}
+
+.header1 {
+    /*취업 게시판,FAQ 등 있는 메뉴 상자 크기 Rectanfle 54*/
+    position:absolute;
+    display:flex;
+    width: 1517px;
+    height:75px;
+    border:1px solid #C7C7C7;
+}
+
+.logo>img{
+    /*MM 로고*/
+    position:absolute;
+    width: 80px;
+    height: 47px;
+    left: 38px;
+    top: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header1_menu {
+    /*취업 게시판, FAQ, Q&A, 코딩테스트의 top(위치)*/
+    position:absolute;
+    display: flex;
+    top:25px;
+    
+}
+
+
+
+.header1_menu > li {
+    /*취업 게시판, FAQ, Q&A, 코딩테스트의 글자 크기와 
+    위치*/
+    margin-left:275px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size:20px;
+    line-height: 28px;
+}
+
+.side {
+    /*취업 의뢰, 취업 현황, 사용 언어, 공지사항 
+    상자의 크기와 위치*/
+    /*Rectngle 40*/
+    position: absolute;
+    width: 200px;
+    height: 695px;
+    left: 0px;
+    top: 75px;
+    
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+    box-shadow: 5px 0px 13px -5px rgba(0, 0, 0, 0.25);
+}
+
+.side_menu>li{
+    /*취업의뢰, 취업현황, 사용언어, 공지사항 상자와 
+    글자 크기*/
+    width: 120px;
+    height: 100px;
+    margin-left: 24px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    
+    color: #7B7B7B;
+}
+
+.emr>a:hover {
+    /*취업의뢰 클릭시에 글자 색깔 바뀌는 클래스!*/
+    /*다같이 적용하려고 하다가 아예 안먹어서 
+    다 클래스 따로 잡아서 했습니다ㅠㅠ*/
+    /*똑같은거 여러개인 이유예요ㅠㅠ*/
+    color:seagreen;
+    font-size: 27px;
+}
+
+.emc>a:hover {
+    /*취업현황 클릭시에 글자 색깔 바뀌는 클래스!*/
+    color:seagreen;
+    font-size: 27px;
+}
+
+.lang>a:hover {
+    /*사용언어 클릭시에 글자 색깔 바뀌는 클래스!*/
+    color:seagreen;
+    font-size: 27px;
+}
+
+.notice>a:hover {
+    /*공지사항 클릭시에 글자 색깔 바뀌는 클래스!*/
+    color:seagreen;
+    font-size: 27px;
+}
+
+.C1{
+    /*Line 14 제목 어쩌구 위에 있는 선*/
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 490px;
+    top: 125px;
+    border: 1px solid #757575;
+}
+
+.C2_l{
+    /*Line 15 날짜랑 신혜정 선생님 밑에 있는 선*/
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 490px;
+    top: 200px;
+    border: 1px solid #757575;
+}
+
+.date {
+    /*날짜*/
+    position: absolute;
+    width: 132px;
+    height: 34px;
+    left: 490px;
+    top: 172px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    color: #737373;
+}
+
+.mirim_s {
+    /*제목 어쩌구 글자*/
+    position: absolute;
+    width: 860px;
+    height: 70px;
+    left: 410px;
+    top: 120px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 70px;
+    align-items: center;
+    text-align: center;
+}
+
+.pc {
+    /*신혜정 선생님 글자*/
+    position: absolute;
+    width: 132px;
+    height: 34px;
+    left: 1084px;
+    top: 174px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    color: #737373; 
+}
+
+.C3_l {
+    /*Line 16 첨부파일과 졸리다.txt 위에 있는 선*/
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 490px;
+    top: 570px;
+    border: 1px solid #757575;  
+}
+
+.C3 > p {
+    /*내용이 어쩌구 저저꾸 내용이 어쩌구 저쩌구*/
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    left: 490px;
+    top: 250px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 10px;
+    text-align: left;
+}
+
+.C4_l {
+    /*Line 17 첨부파일, 졸리다.txt 밑에 있는 선*/
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    left: 490px;
+    top: 670px;
+    border: 1px solid #757575;    
+}
+
+.file {
+     /*첨부 파일*/
+    position: absolute;
+    width: 132px;
+    height: 69px;
+    left: 490px;
+    top: 590px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #737373;    
+}
+
+.txt {
+    /*졸리다.txt*/
+    position: absolute;
+    width: 132px;
+    height: 69px;
+    left: 754px;
+    top: 590px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #737373;   
+}
+
+.Ellipse{
+    /*Ellipse 화면 오른쪽 맨 밑에 있는 
+    동그라미*/
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 40px;
+    top: 608px;
+    border-radius: 50%;
+    background: #00793F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.User{
+    /*동그라미 안에 사람모양 캡처한 이미지 위치*/
+    position: absolute;
+    left: 25px;
+    top: 28px;
+}

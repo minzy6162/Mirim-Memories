@@ -1,0 +1,34 @@
+body{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+html{height: 100%;}
+.sideMenu {
+
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    min-height: 100%;
+    position:absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 0px 5px rgb(233, 233, 233);
+    border-top: 1px solid  #C7C7C7;
+    border-right: 1px solid  #C7C7C7;
+   
+}
+.sideMenu li{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 50px;
+    padding: 40px;
+}
+.sideMenu a{
+    color: #7B7B7B;
+}
+.sideMenu a:hover{
+    color: #00793F;
+    font-size: 30px;
+}

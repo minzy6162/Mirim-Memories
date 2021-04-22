@@ -1,0 +1,174 @@
+body{
+    width: 700px;
+}
+#logo{
+    margin: 20px;
+}
+input{
+    border:0px;
+    border-bottom: 1px solid #7c7c7c;
+    width: 100%;
+    padding:20px;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.request_btn{
+    margin: 50px 0;
+    width: 100%;
+    height: 80px;
+    border-radius: 100px;
+    border:0px;
+    background-color: #00793F;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: 1px 3px 10px -5px rgba(0,0,0, 0.25);
+}
+#year{
+    width: 50%;
+}
+select{
+    font-size: 18px;
+    padding: 20px 50px;
+    text-align: left;
+    border: 0px;
+    border-bottom: 1px solid #7c7c7c;
+    margin-left: 54px;
+    color: #7c7c7c;
+}
+.btn{
+    border:0px;
+    background-color: #00793F;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 0;
+    font-weight: lighter;
+    margin-top: -50px;
+    margin-left: 600px;
+    position:absolute;
+    z-index: 3;
+}
+.filebox input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip:rect(0,0,0,0);
+  border: 0;
+}
+
+.filebox label {
+  display: inline-block;
+  color: #999;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #fdfdfd;
+  cursor: pointer;
+  height: 60px;
+  padding-top: 17px;
+  width: 150px;
+  line-height: normal;
+  border: 1px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: .25em;
+  margin-top: 20px;
+}
+
+.filebox .upload-name {
+  display: inline-block;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  border: 1px solid #ebebeb;
+  border-bottom-color: #e2e2e2;
+  border-radius: .25em;
+  -webkit-appearance: none;
+  width: 530px;
+  margin-top: 20px;
+  height: 60px;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.filebox label {
+  color: #fff;
+  background-color: #00793F;
+}
+#ch_box input[type="checkbox"] {display:none;}
+
+#ch_box input[type="checkbox"] + label{
+  color:black;
+  font-size: 18px;
+}
+#ch_box input[type="checkbox"] + label span:nth-child(1){
+  margin-left: 10px;
+}
+#ch_box input[type="checkbox"] + label span {
+  display:inline-block;
+  vertical-align:middle;
+  background-color: white;
+  cursor:pointer;
+  width: 170px;
+  border-radius: 6px;
+  float: left; 
+  margin-top: 30px;
+  margin-right:33.3px;
+  height: 45px;
+  box-shadow: 4px 4px 12px -3px rgba(0,0,0, 0.25);
+}
+#ch_box input[type="checkbox"]:checked + label span {
+  background-color: #00793F;
+  border-radius: 6px;
+  box-shadow: 4px 4px 12px -3px rgba(0,0,0, 0.25);
+}
+#ch_box input[type="checkbox"]:checked+ label{
+  color: white;
+}
+#lang_txt{
+  width: 170px;
+  height: 45px;
+  text-align: center;
+  margin-left: -200px;
+  line-height: 40px;
+  float: left;
+  margin-top: 30px;
+}
+
+#ch_box{
+  padding:30px;
+  padding-top: 70px;
+}
+#ch_box p{
+  color: #7c7c7c;
+  text-align: left;
+  font-size: 18px;
+}
+#practice,#practice_welfare{
+  text-align: left;
+  color: #7c7c7c;
+  font-size: 18px;
+  margin-top: 80px;
+}
+#practice p{
+  line-height: 25px;
+}
+#practice input[type="checkbox"]{
+  width: 50px;
+  
+}
+#practice,#practice_welfare label{
+  line-height: 50px;
+}
+#practice_welfare input[type="checkbox"]{
+  width: 50px;
+  float: left;
+}
